@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estelle Grésillon - React and Vue Developer</title>
+    <meta
+      name="description"
+      content="Estelle Grésillon - React and Vue Developer"
+    />
+    <meta
+      name="keywords"
+      content="gsap, vue, react, developer, code, front end, css, javascript"
+    />
+    <meta name="author" content="Estelle Grésillon" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/gyf5muf.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+  <body class="loading">
+    <main>
+      <div class="message">
+        Please view this demo on a desktop to see the effect.
+      </div>
+      <div class="frame">
+        <div class="frame__title-wrap">
+          <h1 class="frame__title">Estelle Grésillon</h1>
+        </div>
+        <div class="frame__links">
+          <a href="https://tympanus.net/Development/3DGridContentPreview/"
+            >Experience</a
+          >
+          <a href="https://tympanus.net/codrops/?p=54253">About</a>
+          <a href="https://github.com/codrops/3DGridContentPreview">Contact</a>
+        </div>
+      </div>
+      <div class="content">
+        <h2 class="content__title">
+          <span
+            class="content__title-line content__title-line--1"
+            data-splitting
+            >React/Vue</span
+          >
+          <span
+            class="content__title-line content__title-line--2"
+            data-splitting
+            >Developer</span
+          >
+        </h2>
+        <div class="grid">
+          <!-- <a href="#preview-1" class="grid__item pos-1" data-title="Mohanneles"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/1.jpg)"
+            ></div
+          ></a> -->
+          <!-- <a href="#preview-2" class="grid__item pos-2" data-title="Procody X"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/2.jpg)"
+            ></div
+          ></a> -->
+          <a href="#preview-3" class="grid__item pos-3" data-title="Baroque"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/baroque.jpeg)"
+            ></div
+          ></a>
+          <a href="#preview-4" class="grid__item pos-4" data-title="Dune"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/dune.jpeg)"
+            ></div
+          ></a>
+          <a
+            href="#preview-5"
+            class="grid__item pos-5"
+            data-title="Page Builder"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/builder.jpeg)"
+            ></div
+          ></a>
+          <a href="#preview-6" class="grid__item pos-6" data-title="Travels"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/travels.jpeg)"
+            ></div
+          ></a>
+          <!-- <a href="#preview-7" class="grid__item pos-7" data-title="La Facuoup"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/7.jpg)"
+            ></div
+          ></a> -->
+          <a
+            href="#preview-8"
+            class="grid__item pos-8"
+            data-title="That's My Rock"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/thatsmyrock.jpeg)"
+            ></div
+          ></a>
+          <a href="#preview-9" class="grid__item pos-9" data-title="Jiro"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/jiro.jpeg)"
+            ></div
+          ></a>
+          <!-- <a href="#preview-10" class="grid__item pos-10" data-title="Resson"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/10.jpg)"
+            ></div
+          ></a> -->
+          <!-- <a href="#preview-11" class="grid__item pos-11" data-title="Atinkers"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/11.jpg)"
+            ></div
+          ></a> -->
+          <!-- <a href="#preview-12" class="grid__item pos-12" data-title="Twinhouse"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/12.jpg)"
+            ></div
+          ></a> -->
+          <a
+            href="#preview-13"
+            class="grid__item pos-13"
+            data-title="Playground"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/playground.jpeg)"
+            ></div
+          ></a>
+          <a href="#preview-14" class="grid__item pos-14" data-title="Zest"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/zest.jpeg)"
+            ></div
+          ></a>
+          <a href="#preview-15" class="grid__item pos-15" data-title="Foodlab"
+            ><div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/foodlab.jpeg)"
+            ></div
+          ></a>
+          <!-- <a
+            href="#preview-16"
+            class="grid__item pos-16"
+            data-title="Choulder V"
+          >
+            <div
+              class="grid__item-img"
+              style="background-image: url(img/thumbs/16.jpg)"
+            ></div>
+            <div
+              class="grid__item-img"
+              style="display: flex; align-items: end; justify-content: end"
+            >
+              contact
+            </div>
+          </a> -->
+        </div>
+        <div class="preview">
+          <div class="preview__item" id="preview-1">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Mohanneles</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Acapulco, Mexico</span><span>15/05/2025</span>
+              </div>
+              <p class="preview__item-description">
+                Had a barney with the inlaws a bit miffed pigeons in Trafalgar
+                Square nigh on't goggle box chav hard cheese old boy, marvelous
+                Moriarty pulled a right corker squiffy fork out, a tad
+                stupendous chaps doing my head in ee bah gum.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-2">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Procody X</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Bangkok, Thailand</span><span>22/02/2025</span>
+              </div>
+              <p class="preview__item-description">
+                Houlligan pants pork dripping Moriarty ponce knackered wind up
+                treacle lad bugger, ridicule mince pies ridiculous knackered
+                munta tosser sorted it nonsense. Completely.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-3">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Baroque</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>VanillaJS</span><span>2022</span>
+              </div>
+              <p class="preview__item-description">
+                Baroque monuments and their locations with an infinite scroll
+                loop.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-4">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/4.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Dune</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>VanillaJS</span><span>2022</span>
+              </div>
+              <p class="preview__item-description">
+                Fullscreen Slideshow made with GSAP.
+              </p>
+
+              <a
+                href="https://dune.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-5">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/5.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Page Builder</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>VueJS</span><span>2022</span>
+              </div>
+              <p class="preview__item-description">
+                A Page Builder demo app with custom components and drag and
+                drop.
+              </p>
+
+              <a
+                href="https://builder.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-6">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/6.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Travels</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>VanillaJS</span><span>2022</span>
+              </div>
+              <p class="preview__item-description">
+                Photography portfolio from my trips to Japan, USA, Iceland and
+                Corsica. Staring also some Paris' shots.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-7">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">La Facuoup</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Madrid, Spain</span><span>18/010/2025</span>
+              </div>
+              <p class="preview__item-description">
+                a fiver cotton on rambunctious. Wind up bangers and mash a cuppa
+                bread and butter pudding blummin' tallywhacker hedgehog meat and
+                two veg, bog off off t'pub a diamond geezer cockney gob one
+                feels that, munta a week.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-8">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/8.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">That's My Rock</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Ruby on Rails</span><span>2017</span>
+              </div>
+              <p class="preview__item-description">
+                School project: a Top 100 of the best albums ever made.
+              </p>
+
+              <a
+                href="http://www.thatsmyrock.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-9">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/9.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Jiro</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>ReactJS</span><span>2021</span>
+              </div>
+              <p class="preview__item-description">
+                A task manager made with react-beautiful-dnd.
+              </p>
+
+              <a
+                href="https://jiro.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-10">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Resson</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Vienna, Austria</span><span>12/03/2025</span>
+              </div>
+              <p class="preview__item-description">
+                The chippy tally-ho The Hounds of Baskerville pot noodle 'ar kid
+                conked him one on the nose fancy a cuppa bowler hat doing my nut
+                in black cab, trouble and strife sausage roll damn conked him
+                one on the nose ponce.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-11">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Atinkers</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Berlin, Germany</span><span>22/08/2025</span>
+              </div>
+              <p class="preview__item-description">
+                Doing my nut in chav scouser cheesed off chav scally, Sherlock
+                brown sauce god save the queen shortbread, cobbles pigeons in
+                Trafalgar Square pork dripping.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-12">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Twinhouse</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Berlin, Germany</span><span>29/07/2025</span>
+              </div>
+              <p class="preview__item-description">
+                Collywobbles completely starkers 221B Baker Street terribly
+                round our gaff Shakespeare a tad, driving a mini have a gander
+                could be a bit of a git nose rag. Cornish pasty old girl up the
+                duff ey up every.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-13">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/13.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Playground</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>ReactJs</span><span>2021</span>
+              </div>
+              <p class="preview__item-description">
+                A Playground containing Tetris, Rock Papers Scissors, Tic Tac
+                Toe, Wordle, Nerdle (Wordle with numbers), Instant Nerdle
+                (Nerdle in one try).
+              </p>
+
+              <a
+                href="https://playground.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-14">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/14.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Zest</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>VanillaJs</span><span>2020</span>
+              </div>
+              <p class="preview__item-description">Neobank one page.</p>
+
+              <a
+                href="https://zest.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-15">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/15.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Foodlab</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>ReactJs</span><span>2019</span>
+              </div>
+              <p class="preview__item-description">
+                School Project - Find the best restaurants in Paris.
+              </p>
+              <a
+                href="https://foodlab.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+          <div class="preview__item" id="preview-16">
+            <button class="preview__item-back unbutton">
+              <span>Back</span>
+            </button>
+            <div class="preview__item-imgwrap">
+              <div
+                class="preview__item-img"
+                style="background-image: url(img/full/3.jpg)"
+              ></div>
+            </div>
+            <h2 data-splitting class="preview__item-title">Choulder V</h2>
+            <div class="preview__item-content">
+              <div class="preview__item-meta">
+                <span>Moscow, Russia</span><span>10/08/2025</span>
+              </div>
+              <p class="preview__item-description">
+                It's the bees knees oopsy-daisies bottled it on his bill Essex
+                girls in a pickle ever so, flabbergasted what a load of cobblers
+                in the goolies Bad Wolf chuffed, and grab a jumper have a kip
+                narky one off.
+              </p>
+
+              <a
+                href="https://baroque.estellegresillon.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="preview__item-button">Visit</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="cursor">
+      <svg class="cursor__svg" width="80" height="80" viewBox="0 0 80 80">
+        <circle
+          vector-effect="non-scaling-stroke"
+          class="cursor__svg-circle"
+          cx="40"
+          cy="40"
+          r="20"
+        />
+      </svg>
+      <span class="cursor__text"></span>
+    </div>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
